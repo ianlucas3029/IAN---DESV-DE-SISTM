@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisaõ tabelas</title>
+</head>
+<body>
+    <center>
+        <h1> alinhamento de tabelas e celulas</h1>
+    </center>
+    <table border="1" align="center"> <!-- nessa tabela serve para alinhar as palavras dentro da celula -->
+        <td> primeira celula</td>
+        <td> segunda celula</td>
+        <td> terceira celula</td>
+        <tr>
+            <td align="center">centro</td>
+        <td align="left"> esquerda </td>
+        <td align="right">direita</td>
+
+     </tr>
+    </table>
+    <br>
+    <br>
+    <center>
+        <h1>uso do cellspacing</h1><!-- nessa tabela temos o cellspacing que serve para dar o espaço entre a celula e a tabela, a margen-->
+    </center>
+    <table border="1" width="80%" cellspacing="30" align="center">
+        <tr>       
+           <td widht="33%">coluna 1</td>
+           <td  widht="33%">  coluna 2</td>
+           <td  widht="34%"> coluna 3</td>
+        </tr>
+
+    </table>
+
+
+    <br>
+    <br>
+    <center>
+        <h1>uso do cellspadding</h1> <!-- nessa tabela temos o cellspadding que é o espaço entre a palavra/conteudo da celula-->
+    </center>
+    <table border="1" width="80%" cellpadding="24" align="center">
+        <tr>       
+           <td widht="25%">aluno</td>
+           <td  widht="30%">  professor </td>
+           <td  widht="45%">tec. desenv</td>
+        </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <center>
+        <h1>uso do rowspan</h1> <!-- nessa tabela temos o rowspan que é relacionar uma coluna com a linha naquela tabela -->
+    </center>
+    <table border="3" width="90%" cellpadding="7" align="center">
+        <tr>       
+           <td widht="16%" rowspan="3">3 linhas</td>
+           <td  widht="16%"> L1 coluna2 </td>
+           <td  widht="16%"> L1 coluna3</td>
+           <td  widht="17%"> L1 coluna4</td>
+           <td  widht="17%"> L1 coluna5</td>
+
+        </tr>
+        <tr>       
+            <td  widht="16%"> L2 coluna2 </td>
+            <td  widht="16%"> L2 coluna3</td>
+            <td  widht="17%"> L2 coluna4</td>
+            <td  widht="17%"> L2 coluna5</td>
+ 
+         </tr>
+         <tr>       
+            <td  widht="16%"> L3 coluna2 </td>
+            <td  widht="16%"> L3 coluna3</td>
+            <td  widht="17%"> L3 coluna4</td>
+            <td  widht="17%"> L3 coluna5</td>
+ 
+         </tr>
+ 
+    </table>
+
+    <br>
+    <br>
+    <center>
+        <h1>uso do colspan</h1><!-- -->
+    </center>
+    <table border="3" width="80%" cellpadding="7" align="center">
+        <tr>       
+           <td widht="24%" colspan="3"> celula com 3 colunas</td>
+           <td  widht="20%"> L1 coluna2 </td>
+
+
+        </tr>
+        <tr>       
+            <td  widht="16%"> L2 coluna2 </td>
+            <td  widht="16%"> L2 coluna3</td>
+            <td  widht="17%"> L2 coluna4</td>
+            <td  widht="17%"> L2 coluna5</td>
+ 
+         </tr>
+         <tr>       
+            <td  widht="16%"> L3 coluna2 </td>
+            <td  widht="16%"> L3 coluna3</td>
+            <td  widht="17%"> L3 coluna4</td>
+            <td  widht="17%"> L3 coluna5</td>
+ 
+         </tr>
+ 
+    </table>
+
+    <br>
+    <br>
+    <center>
+        <h1>uso do colspan</h1>
+    </center>
+    <table border="3" width="80%" cellpadding="7" align="center">
+        <tr>       
+           <td widht="24%" colspan="3"> celula com 3 colunas</td>
+           <td  widht="20%"> L1 coluna4 </td>
+           <td  widht="20%"> L1 coluna5 </td>
+
+
+
+        </tr>
+        <tr>       
+            <td  widht="16%" bgcolor="green"> L2 coluna2 </td>
+            <td  widht="16%" bgcolor="blue"> L2 coluna3</td>
+            <td  widht="17%" bgcolor="yellow"> L2 coluna4</td>
+            <td  widht="17%"colspan="3"bgcolor="red"> L2 coluna5</td>
+ 
+         </tr>
+
+ 
+    </table>
+    
+</body>
+</html>
